@@ -22,7 +22,8 @@ public class MyPriorityQueue {
         PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
-                return o1 < o2 ? 1 : -1;
+                //return o1 < o2 ? 1 : -1;
+                return o2 - o1;
             }
         });
         int[] arr = new int[]{1, 5, 12, 52, 36, 4, 4, 86, 78, 32, 15, 19};
