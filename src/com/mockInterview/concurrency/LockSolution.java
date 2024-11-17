@@ -24,4 +24,29 @@ public class LockSolution {
             lock.unlock();
         }
     }
+
+    public static void main(String[] args) throws InterruptedException {
+        LockSolution lockSolution = new LockSolution();
+        Thread[] threads = new Thread[100];
+        for(int i = 0; i < 100; i ++){
+            int k = i;
+            threads[i] = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    for (int j = 0; j < 1000; j ++){
+                        ///atomicTest.increment();
+                        lockSolution.increment();
+                    }
+                }
+            });
+        }
+        for(int i = 0; i < 100; i ++){
+            threads[i].start();
+        }
+        for(int i = 0; i < 100; i ++){
+            threads[i].join();
+        }
+
+        System.out.println(lockSolution.getCount());
+    }
 }
