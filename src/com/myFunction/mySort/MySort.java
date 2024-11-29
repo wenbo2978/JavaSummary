@@ -1,4 +1,4 @@
-package com.myFunction;
+package com.myFunction.mySort;
 
 public class MySort {
 
