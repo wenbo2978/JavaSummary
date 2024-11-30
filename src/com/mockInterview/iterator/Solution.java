@@ -37,4 +37,7 @@ public class Solution {
         solution.testList();
         solution.testMap();
     }
+
+    //Arrays
+
 }
