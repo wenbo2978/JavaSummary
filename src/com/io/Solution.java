@@ -25,11 +25,26 @@ public class Solution {
         }
     }
 
+    private void readBy_try_with_resource(){
+        try(BufferedReader br = new BufferedReader(new FileReader("myDir/file.txt"))){
+            String line;
+            while ((line = br.readLine()) != null){
+                System.out.println(line);
+            }
+        }catch (IOException e){
+            System.out.println(e.toString());
+        }
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        solution.serializationTest();
+        // Serialization Test
+//        solution.serializationTest();
+//        solution.deserializationTest();
 
-        solution.deserializationTest();
+        // try with resource Test
+
+        solution.readBy_try_with_resource();
     }
 }

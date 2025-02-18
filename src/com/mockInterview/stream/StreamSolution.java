@@ -1,6 +1,7 @@
 package com.mockInterview.stream;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -18,5 +19,14 @@ public class StreamSolution {
         int sum = numbers.stream()
                 .reduce(0, (subTotal, ele) -> subTotal + ele);
         System.out.println(sum);
+
+        List<Integer> sortedList = numbers.stream()
+                .sorted((a, b) -> b - a)
+                .toList();
+
+        for(int i = 0; i < sortedList.size(); i ++){
+            System.out.println(sortedList.get(i));
+
+        }
     }
 }
