@@ -2,7 +2,7 @@ package com.leetcode.stackPractice.leetcode1021;
 
 import java.util.Stack;
 
-class Solution {
+public class Solution {
     public String removeOuterParentheses(String s) {
         StringBuilder sb= new StringBuilder("");
         Stack<Character> st = new Stack<>();

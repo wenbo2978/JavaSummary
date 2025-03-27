@@ -6,9 +6,9 @@ public enum Monster {
     HARD("L", 30, 50),
     MASTER("O", 80, 200),
     BOSS("Dragon", 150, 120000);
-    public String name;
-    public int attack;
-    public int life;
+    public final String name;
+    public final int attack;
+    public final int life;
 
     Monster(String name, int attack, int life){
         this.name = name;
