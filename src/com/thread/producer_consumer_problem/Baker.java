@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 
 public class Baker {
 
-    ArrayDeque<Cookie> cookies = Main.cookies;
+    final ArrayDeque<Cookie> cookies = Main.cookies;
 
     public void produce(Cookie cookie) throws InterruptedException{
         synchronized (cookies){

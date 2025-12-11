@@ -3,7 +3,7 @@ package com.thread.producer_consumer_problem;
 import java.util.ArrayDeque;
 
 public class Cashier {
-    ArrayDeque<Cookie> cookies = Main.cookies;
+    final ArrayDeque<Cookie> cookies = Main.cookies;
 
     public void consume() throws InterruptedException {
 
@@ -19,7 +19,7 @@ public class Cashier {
 
             // if there is space on shelf, produce
             cookies.remove();
-            System.out.println("Cashier sold a cookie!\n" +
+            System.out.println(Thread.currentThread().getName() + " Cashier sold a cookie!\n" +
                     "Cookies currently ready for sale: " + cookies.size());
             cookies.notify();
 
