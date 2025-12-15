@@ -1,8 +1,5 @@
 package com.mockInterview.clone;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Student implements Cloneable{
     private String name;
     private String id;

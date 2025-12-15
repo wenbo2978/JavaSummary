@@ -1,7 +1,5 @@
 package com.designPattern.factoryMethod;
 
-import java.util.Scanner;
-
 public class Client {
     public static void main(String[] args) {
         TV tv;

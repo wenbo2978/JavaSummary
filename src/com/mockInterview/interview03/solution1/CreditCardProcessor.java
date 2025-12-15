@@ -1,7 +1,5 @@
 package com.mockInterview.interview03.solution1;
 
-import java.math.BigDecimal;
-
 public class CreditCardProcessor implements PaymentProcessor {
 
     private static final double PROCESSING_FEE_RATE = 0.02;

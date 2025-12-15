@@ -3,8 +3,6 @@ package com.myFunction.myCollection;
 import com.myFunction.myCollection.MyNode.MySingleNode;
 import com.myFunction.myCollection.myInterface.MyList;
 
-import java.util.List;
-
 public class MyLinkedList<E> implements MyList<E> {
     private MySingleNode<E> head;
     private MySingleNode<E> tail;
