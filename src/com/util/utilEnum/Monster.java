@@ -1,4 +1,4 @@
-package com.mockInterview.enumeration;
+package com.util.utilEnum;
 
 public enum Monster {
     EASY("H", 20, 30),
