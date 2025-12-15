@@ -1,6 +1,6 @@
 package com.collectionFramework.queueExample;
 
-import com.utilClass.Student;
+import com.util.utilClass.Student;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
