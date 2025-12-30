@@ -1,4 +1,4 @@
-package com.designPattern.facade.example1;
+package com.designPattern.structuralDesignPatterns.facade;
 
 public class Client {
     public static void main(String[] args) {

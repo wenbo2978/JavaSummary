@@ -1,4 +1,4 @@
-package com.designPattern.facade.example1;
+package com.designPattern.structuralDesignPatterns.facade;
 
 public class TV {
     public void turnOn() { System.out.println("TV is turned on."); }

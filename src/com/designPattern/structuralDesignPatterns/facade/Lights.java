@@ -1,4 +1,4 @@
-package com.designPattern.facade.example1;
+package com.designPattern.structuralDesignPatterns.facade;
 
 public class Lights {
     public void dim() { System.out.println("Lights are dimmed."); }
