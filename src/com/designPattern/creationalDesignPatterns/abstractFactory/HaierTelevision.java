@@ -1,4 +1,4 @@
-package com.designPattern.abstractFactory;
+package com.designPattern.creationalDesignPatterns.abstractFactory;
 
 public class HaierTelevision implements Television {
     @Override

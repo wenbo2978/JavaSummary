@@ -1,4 +1,4 @@
-package com.designPattern.factoryMethod;
+package com.designPattern.creationalDesignPatterns.factoryMethod;
 
 public class Client {
     public static void main(String[] args) {

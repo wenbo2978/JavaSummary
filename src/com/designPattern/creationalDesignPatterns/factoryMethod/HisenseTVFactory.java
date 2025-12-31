@@ -1,4 +1,4 @@
-package com.designPattern.factoryMethod;
+package com.designPattern.creationalDesignPatterns.factoryMethod;
 
 public class HisenseTVFactory implements TVFactory {
     @Override

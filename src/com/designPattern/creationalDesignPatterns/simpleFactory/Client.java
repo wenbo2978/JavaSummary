@@ -1,4 +1,4 @@
-package com.designPattern.simpleFactory;
+package com.designPattern.creationalDesignPatterns.simpleFactory;
 
 import java.util.Scanner;
 
