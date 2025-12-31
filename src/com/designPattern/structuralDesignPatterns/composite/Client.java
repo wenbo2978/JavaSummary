@@ -1,4 +1,4 @@
-package com.designPattern.composion.example1;
+package com.designPattern.structuralDesignPatterns.composite;
 
 public class Client {
     public static void main(String[] args) {

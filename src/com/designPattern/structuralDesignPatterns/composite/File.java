@@ -1,7 +1,7 @@
-package com.designPattern.composion.example1;
+package com.designPattern.structuralDesignPatterns.composite;
 
 public class File implements FileComponent{
-    private String name;
+    private final String name;
     public File(String name){
         this.name = name;
     }

@@ -1,11 +1,11 @@
-package com.designPattern.composion.example1;
+package com.designPattern.structuralDesignPatterns.composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Folder implements FileComponent{
-    private String name;
-    private List<FileComponent> components = new ArrayList<>();
+    private final String name;
+    private final List<FileComponent> components = new ArrayList<>();
 
     public Folder(String name) {
         this.name = name;
