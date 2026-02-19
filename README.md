@@ -1,4 +1,4 @@
-# Code Summary
+# Java Summary
 
 
 ## 1. [CollectionFramework](https://github.com/wenbo2978/CodeSummary/tree/main/src/com/collectionFramework)
