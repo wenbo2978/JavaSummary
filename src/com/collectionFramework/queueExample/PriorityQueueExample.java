@@ -50,6 +50,18 @@ public class PriorityQueueExample {
 
     }
 
+    public static void customComparatorExample(){
+        PriorityQueue<Student> students = new PriorityQueue<>(new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return o1.getScore() == o2.getScore() ?
+                        (Integer.compare(o1.getAge(), o2.getAge()))
+                        :
+                        (Integer.compare(o1.getScore(), o2.getScore()));
+            }
+        });
+    }
+
     public static void main(String[] args) {
         //comparableExample();
         comparatorExample();
